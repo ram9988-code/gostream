@@ -11,10 +11,6 @@ export default function app() {
 
   return (
     <Router>
-      {/* <Route exact path={ROUTES.BROWSE}>
-        
-      </Route> */}
-
       <IsUserRedirect
         user={user}
         loggedInPath={ROUTES.BROWSE}
